@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="title-holder">
+            <div class="title">NotiOff</div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="main">
+            <div class="leftmenu">
+                <div class="create-bar">
+                    <button id="button" class="create-bar-button">
+                        Create
+                    </button>
+                </div>
+                <div class="title-bar">
+
+                </div>
+            </div>
+            <div class="rightmenu">
+                <div class="rightmenu-title">
+
+                </div>
+                <div class="rightmenu-content">
+
+                </div>
+                <div class="rightmenu-buttons">
+                    <button id="editor-edit">Edit</button>
+                    <button id="editor-delete">Delete</button>
+                </div>
+            </div>
+        </div>
+        <div class="editor-container hidden">
+            <div class="editor-container-header">
+                <form>
+                    <label>Enter the Title</label>
+                    <input id="input-title" type="text">
+                </form>
+            </div>
+            <div class="editor">
+
+            </div>
+            <div class="editor-container-button"><button id="editor-save">Save</button></div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

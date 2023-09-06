@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 50px;
+    /* font-size: 22px; */
+    background-color: rgba(202, 177, 177, 0.616);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-holder {
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+}
+
+.main {
+    position: relative;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftmenu {
+    min-width: 100px;
+    width: 20%;
+    height: 100vh;
+    background-color: antiquewhite
+}
+
+.rightmenu {
+    /* background-color: aqua; */
+    width: 80%;
+    height: 100vh;
+}
+
+.create-bar {
+    width: 100%;
+    height: 10%;
+    /* background-color: aqua; */
+    color: #fff;
+    /* padding: 10px; */
+    /* position: sticky; */
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+}
+
+.create-bar button {
+    /* width: 100%; */
+    height: 100%;
+    margin: 2%;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.title-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.editor-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: azure;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 60%;
+}
+
+.hidden {
+    display: none;
+}
+
+.editor {
+    /* background-color: black; */
+    width: 100%;
+    height: 100%;
+}
+
+.editor-container-header form {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.editor-container-header label {
+    font-size: 22px;
+    margin: 2%;
+}
+
+.editor-container-header form input {
+    height: 40px;
+    width: 50%;
+    font-size: 20px;
+}
+
+.editor-container-button {
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+}
+.rightmenu{
+    box-sizing: border-box;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightmenu-title
+{
+    height: 10%;
+    width: 100%;
+    /* background-color: aqua; */
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightmenu-content
+{   margin: 1%;
+    height: 50%;
+    width: 100%;
+    /* background-color: aqua; */
+    border: 1px solid black;
+    display: flex;
+    align-items: start;
+    padding-left: 1%;
+    font-size: 17px;
+}
+.rightmenu-buttons
+{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightmenu-buttons button{
+    margin: 1%;
+    height: 50%;
+    min-width:fit-content;
+    width:20%;
+    max-width: 40%;
+    font-size: 17px;
+}
+.note{
+    margin: 2%;
+    display: flex;
+    padding: 1%;
+    min-height: 50px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border:1px solid black;
+    border-radius: 20px;
+}
+.editor-container-button button {}
